@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "ee94dfbe074ff8ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f19ee73d9fa8ea12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57b9fee068692292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/b03-deltaScenarios.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31f3cf2b4fab083d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e62675fde8938d6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f236432c73c8825d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e264281f92ad82fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2eef34413d9baed0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c08063edbf47708e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 414.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ecaca386436a3f4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "df566b21e95d4081",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f1d366cb2fd0cdf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/b03-deltaScenarios.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c0e1dec9f86ef4e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/b03-deltaScenarios.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c953c35de616c5b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "416213b9452d76a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/b03-deltaScenarios.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "57b9fee068692292",
+  "lastOpenFiles": [
+    "docs/a01-overview.md",
+    "docs/b03-deltaScenarios.md",
+    "docs/title-page.md",
+    "docs/a08-securitiesPricing.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "scripts/xxx.json",
+    "docs/a06-interestRates.md",
+    "docs/_Draft-Paper-Wp746.pdf",
+    "docs/Draft-Paper-Wp746.pdf",
+    "docs/b02-differentAbout.md",
+    "docs/b02-differentAbout.pdf",
+    "docs/allowances-stock-flow.png",
+    "docs/a10-macroAssets.md",
+    "docs/a09-macro.md",
+    "docs/a09-macro.pdf",
+    "docs/a07-bankCapital.md",
+    "docs/a05-bankProvisioning.md",
+    "docs/a05-bankProvisioning.pdf",
+    "docs/a04-creditRisk.md",
+    "docs/a03-creditCreation.md",
+    "docs/a02-bankBalanceSheets.md",
+    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.err",
+    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.out",
+    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.log",
+    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.spc",
+    "docs/capital-adequacy-stress-func.png",
+    "docs/portfolio-default-rate-func.png",
+    "docs/portofolio-default-rate-func.png",
+    "docs/nonlinear-credit-risk-function.png",
+    "docs/nonlinear-credit-risk-function (1).png",
+    "docs/car-function.png",
+    "docs/credit-risk-function.png",
+    "scripts/defaultRateFunc.png",
+    "www.gimm.institute.md",
+    "README.md",
+    "docs/b03-delta-scenarios.md",
+    "docs/b02-different-about.md",
+    "docs/a07-bankProvisioning.md",
+    "docs/a06-bankCapital.md",
+    "docs/a05-interestRates.md",
+    "docs/a2-bankBalanceSheets.md",
+    "docs/a9-macro.md",
+    "docs/a9-macroAssets.md",
+    "docs/reduced-form-credit-creation.png.download/reduced-form-credit-creation.png"
+  ]
+}
