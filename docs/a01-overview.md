@@ -23,6 +23,7 @@
 
 [Keywords: big-picture, aggregative, medium term, solvency oriented]
 
+
 * **Two-way** "behavioral" interactions between macro and the financial system with endogenous feedback
 
 * Finstab **scenario** production and macropru **policy analysis**, cost-benefit analysis
