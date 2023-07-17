@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"group","id":"68031910d1d93ca7","x":-520,"y":120,"width":327,"height":280,"label":"Cost of lending"},
+		{"type":"group","id":"64b39639ee053812","x":200,"y":-260,"width":327,"height":160,"color":"1","label":"Lending conditions"},
+		{"type":"text","text":"Macro","id":"127982622b70ea7e","x":-80,"y":110,"width":238,"height":90},
+		{"type":"text","text":"Bank capital adequacy","id":"f104239d78ec6b46","x":-80,"y":460,"width":238,"height":90},
+		{"type":"text","text":"Expected short rate risk\n","id":"57da2a326ee65de9","x":-500,"y":140,"width":287,"height":60},
+		{"type":"text","text":"Expected credit risk\n","id":"73f5d0ac9acbd694","x":-500,"y":200,"width":287,"height":60},
+		{"type":"text","text":"Cost of bank capital\n","id":"f230b370980f8ecd","x":-500,"y":260,"width":287,"height":60},
+		{"type":"text","text":"Autonomous margins\n","id":"a11599796335611c","x":-500,"y":320,"width":287,"height":60},
+		{"type":"text","text":"Asset performance","id":"00cffba9db894e73","x":245,"y":460,"width":238,"height":90},
+		{"type":"text","text":"New credit","id":"a626d3ad6f7e5991","x":302,"y":110,"width":238,"height":90},
+		{"type":"text","text":"Stock of outstanding credit\n","id":"6a025503274d0b68","x":302,"y":260,"width":238,"height":90},
+		{"type":"text","text":"Lending spreads","id":"691f64bbf03cde61","x":220,"y":-240,"width":287,"height":60},
+		{"type":"text","text":"Nonprice conditions\n","id":"586908ea0b1de9cb","x":220,"y":-180,"width":287,"height":60}
+	],
+	"edges":[
+		{"id":"83267268a3db612d","fromNode":"64b39639ee053812","fromSide":"bottom","toNode":"127982622b70ea7e","toSide":"top"},
+		{"id":"3ae3fb79d7114adc","fromNode":"64b39639ee053812","fromSide":"bottom","toNode":"a626d3ad6f7e5991","toSide":"top"},
+		{"id":"954d4eee0db969a6","fromNode":"127982622b70ea7e","fromSide":"right","toNode":"a626d3ad6f7e5991","toSide":"left"},
+		{"id":"9264675dc8c46f18","fromNode":"a626d3ad6f7e5991","fromSide":"bottom","toNode":"6a025503274d0b68","toSide":"top"},
+		{"id":"f82e5a6c26a4b366","fromNode":"00cffba9db894e73","fromSide":"left","toNode":"f104239d78ec6b46","toSide":"right"},
+		{"id":"b2054fe534b5128e","fromNode":"f104239d78ec6b46","fromSide":"left","toNode":"f230b370980f8ecd","toSide":"right","color":"6","label":"𝜎"},
+		{"id":"13207d96e8f2f4b1","fromNode":"127982622b70ea7e","fromSide":"left","toNode":"73f5d0ac9acbd694","toSide":"right","color":"6","label":"𝜎"},
+		{"id":"8925beaa6359cb8e","fromNode":"127982622b70ea7e","fromSide":"left","toNode":"57da2a326ee65de9","toSide":"right"},
+		{"id":"4cbcad197a45f5a9","fromNode":"68031910d1d93ca7","fromSide":"top","toNode":"64b39639ee053812","toSide":"left"},
+		{"id":"5441401ea38c3474","fromNode":"691f64bbf03cde61","fromSide":"right","toNode":"00cffba9db894e73","toSide":"right"},
+		{"id":"fb0a9f2e515eccd0","fromNode":"6a025503274d0b68","fromSide":"bottom","toNode":"00cffba9db894e73","toSide":"top"},
+		{"id":"a5bb0af57efa53e6","fromNode":"127982622b70ea7e","fromSide":"bottom","toNode":"00cffba9db894e73","toSide":"top","color":"6","label":"𝜎"}
+	]
+}

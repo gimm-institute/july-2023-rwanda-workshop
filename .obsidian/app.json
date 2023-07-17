@@ -2,7 +2,7 @@
   "vimMode": true,
   "autoPairBrackets": true,
   "autoPairMarkdown": false,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "readableLineLength": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
@@ -10,5 +10,6 @@
     "margin": "0",
     "downscalePercent": 75
   },
-  "showInlineTitle": false
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true
 }

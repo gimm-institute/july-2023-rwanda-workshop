@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "57b9fee068692292",
+            "id": "a49446649835a3f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/b03-deltaScenarios.md",
-                "mode": "preview",
+                "file": "docs/a01-overview.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5,
-    "collapsed": true
+    "width": 414.5
   },
   "right": {
     "id": "ecaca386436a3f4b",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/b03-deltaScenarios.md",
+                "file": "docs/a01-overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/b03-deltaScenarios.md",
+                "file": "docs/a01-overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,11 +133,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/b03-deltaScenarios.md"
+                "file": "docs/a01-overview.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,11 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57b9fee068692292",
+  "active": "a49446649835a3f9",
   "lastOpenFiles": [
+    "docs/model-structure-canvas.canvas",
+    "docs/model-structure-canvas.png",
+    "docs/model-structure.png",
+    "docs/lending-conditions-feedback-canvas.canvas",
+    "docs/lending-conditions-feedback-canvas.png",
     "docs/a01-overview.md",
-    "docs/b03-deltaScenarios.md",
+    "docs/a01-overview.pdf",
+    "docs/xxx.png",
     "docs/title-page.md",
+    "docs/a10-macroAssets.md",
+    "docs/b03-deltaScenarios.md",
     "docs/a08-securitiesPricing.md",
     "Untitled 2.md",
     "Untitled 1.md",
@@ -171,7 +179,6 @@
     "docs/b02-differentAbout.md",
     "docs/b02-differentAbout.pdf",
     "docs/allowances-stock-flow.png",
-    "docs/a10-macroAssets.md",
     "docs/a09-macro.md",
     "docs/a09-macro.pdf",
     "docs/a07-bankCapital.md",
@@ -183,15 +190,11 @@
     "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.err",
     "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.out",
     "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.log",
-    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.spc",
     "docs/capital-adequacy-stress-func.png",
     "docs/portfolio-default-rate-func.png",
     "docs/portofolio-default-rate-func.png",
     "docs/nonlinear-credit-risk-function.png",
     "docs/nonlinear-credit-risk-function (1).png",
-    "docs/car-function.png",
-    "docs/credit-risk-function.png",
-    "scripts/defaultRateFunc.png",
     "www.gimm.institute.md",
     "README.md",
     "docs/b03-delta-scenarios.md",
@@ -200,8 +203,6 @@
     "docs/a06-bankCapital.md",
     "docs/a05-interestRates.md",
     "docs/a2-bankBalanceSheets.md",
-    "docs/a9-macro.md",
-    "docs/a9-macroAssets.md",
-    "docs/reduced-form-credit-creation.png.download/reduced-form-credit-creation.png"
+    "docs/a9-macro.md"
   ]
 }

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"group","id":"ff33608b1941ecf5","x":-520,"y":-80,"width":280,"height":420,"color":"5","label":"Macro"},
+		{"type":"group","id":"e7b41cf555b816c6","x":320,"y":-80,"width":280,"height":420,"color":"1","label":"Banking system"},
+		{"type":"text","text":"Local macroeconomy","id":"60820b02cd5fddc2","x":-500,"y":-60,"width":240,"height":100},
+		{"type":"text","text":"Macro pricing of assets","id":"2405143f7ce50c56","x":-500,"y":80,"width":240,"height":100},
+		{"type":"text","text":"Global economy assumptions","id":"8342985f9824d0d6","x":-500,"y":220,"width":240,"height":100},
+		{"type":"text","text":"Credit creation","id":"2f310fb41dd22048","x":-80,"y":-60,"width":240,"height":100,"color":"3"},
+		{"type":"text","text":"Credit risk","id":"c6430001bd03d48d","x":-80,"y":80,"width":240,"height":100,"color":"3"},
+		{"type":"text","text":"Lending & funding conditions","id":"e74b91d8fc25645c","x":-80,"y":220,"width":240,"height":100,"color":"3"},
+		{"type":"text","text":"Asset performance","id":"d59fe2f04ed65be2","x":340,"y":-60,"width":240,"height":100},
+		{"type":"text","text":"Bank profits and bank capital","id":"7f8e50cc7d7a1a74","x":340,"y":80,"width":240,"height":100},
+		{"type":"text","text":"Macroprudential instruments","id":"21b809b893e1c18a","x":340,"y":220,"width":240,"height":100}
+	],
+	"edges":[
+		{"id":"6576332d6b82a2c7","fromNode":"ff33608b1941ecf5","fromSide":"right","toNode":"2f310fb41dd22048","toSide":"left","fromEnd":"arrow"},
+		{"id":"abdc365cc0fbb530","fromNode":"c6430001bd03d48d","fromSide":"left","toNode":"ff33608b1941ecf5","toSide":"right","fromEnd":"arrow"},
+		{"id":"9e24d727a72bbc1b","fromNode":"ff33608b1941ecf5","fromSide":"right","toNode":"e74b91d8fc25645c","toSide":"left","fromEnd":"arrow"},
+		{"id":"4045f1dc8335e09e","fromNode":"2f310fb41dd22048","fromSide":"right","toNode":"e7b41cf555b816c6","toSide":"left","fromEnd":"arrow"},
+		{"id":"3a60099ff4dc6676","fromNode":"e7b41cf555b816c6","fromSide":"left","toNode":"c6430001bd03d48d","toSide":"right","fromEnd":"arrow"},
+		{"id":"99cf58809c52b44b","fromNode":"e7b41cf555b816c6","fromSide":"left","toNode":"e74b91d8fc25645c","toSide":"right","fromEnd":"arrow"}
+	]
+}

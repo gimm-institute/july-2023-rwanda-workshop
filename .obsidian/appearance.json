@@ -4,5 +4,6 @@
     "gimm"
   ],
   "theme": "moonstone",
-  "baseFontSize": 30
+  "baseFontSize": 30,
+  "showViewHeader": true
 }
