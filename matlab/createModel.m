@@ -36,8 +36,8 @@ modelFiles = [...
 
 m = Model.fromFile( ...
     modelFiles ...
-    , growth=~true...
-    , assign=struct("segments", ["hh"]) ...
+    , "growth", true...
+    , "assign", struct("segments", ["hh"]) ...
 );
 
 
@@ -63,32 +63,13 @@ p = calibrate.bankCapital(p);
 
 p = calibrate.stress(p);
 
-p.ss_roc_cpiw = 1;
-p.ss_roc_cpi = 1;
-p.ss_roc_y = 1;
-p.ss_roc_re = 1;
-
 m = assign(m, p);
+
 
 %% Calculate steady state
 
 m = steady(m);
 checkSteady(m);
-
-folder = "~/iris-pie/examples/gimm/parameters";
-
-p = access(m, "parameter-values");
-iris.utils.json.write(p, fullfile(folder, "parameters.json"));
-
-s = access(m, "steady-levels");
-s = rmfield(s, fieldnames(p));
-s = rmfield(s, "ttrend");
-f = fieldnames(s);
-s = rmfield(s, f(startsWith(f, "shock_")));
-s = rmfield(s, f(startsWith(f, "tune_")));
-iris.utils.json.write(s, fullfile(folder, "steady.json"));
-
-return
 
 
 %% Print steady state table for nonlinear model
