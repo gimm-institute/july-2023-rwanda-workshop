@@ -10,33 +10,37 @@
 
 * Global Institute for Macroprudential Modeling [www.gimm.institute](https://www.gimm.institute): a (non-profit) network for finstab and macropru practitioners
 
-* Running regional and technical workshops
+* Running regional and technical **workshops**
 
-* Assisting in developing and implementing  in-house finstab and macropru model frameworks
+* **Bilateral technical cooperation** in developing and implementing  in-house finstab and macropru model frameworks
 
-* Producing and delivering global macrofinancial scenarios
+* Producing and delivering **global scenarios** of macrofinancial stress
 
 --------------------------------------------------------------------------------
 
 
 ### What is the framework designed for?
 
-* **Two-way** "behavioral" interactions between macro and the financial system with endogenous feedback
+* **Top-down aggregative two-way "behavioral"** interactions between macro and the financial system with endogenous feedback (Why? ...)
 
-* **Top-down aggregative** view
+* Main focus on **medium-term** time dimension of **threats to solvency** (credit risk, interest rate risk, exchange rate risk, market risk)
 
-* Focus on **medium-term** time dimension of a multiplicity of **solvency** risks (but flexible to judgmentally accommodate a range of other dimensions)
+* Finstab **scenario** production and macropru **policy analysis** (cost-benefit analysis, etc.)
 
-* Finstab **scenario** production and macropru **policy analysis**, cost-benefit analysis
+* **Customizable** and extensible to accommodate regional and jurisdictional
+  specifics
+
+* Usable for structural interpretation and impact analysis of **climate risks**
 
 ---
 
 ### How does the framework fit in?
 
-* Top-layer **complement** to other existing models/tools; designed to help **synthesize** a variety of insights and inputs, including expert judgment
+* Top-layer **complement** to other existing models/tools
 
-* **Customizable** and extensible to accommodate regional and jurisdictional
-  specifics
+* Help **synthesize** a variety of insights and inputs
+
+* Operationalize expert **judgmental calls**
 
 
 --------------------------------------------------------------------------------
@@ -49,7 +53,7 @@
 
 * Deeply structural (aka DSGE) or "publishable" model
 
-* Econometric ("estimated") model
+* Econometric ("estimated") model or regression model
 
 * Theory-based justification for macropru interventions (aggregate risk,
   money creation vs intermediation functions of banks, myopia, etc.)
@@ -90,13 +94,10 @@
 * The very basic model framework consists of **three types of modules**: macro,
   financial system, and connecting modules
 
-* Examples of extension we implemented elsewhere: nonbank intermediaries (securities
-  dealers), corporate fixed income markets, sovereign fixed income markets
-
-* Keywords: Nonlinearities, asymmetries, stock-flow relationships, aggregate risk, macropru as robust
-  not optimal policy
-
-
+* Examples of extensions we implemented elsewhere
+	* nonbank intermediaries (securities dealers)
+	* corporate fixed income markets
+	* sovereign fixed income markets
 
 
 --------------------------------------------------------------------------------
@@ -123,7 +124,7 @@
     * help introduce some financial concepts consistently (e.g. IFRS9, pricing of future anticipated risk, etc.)
     * help construct scenarios with explicit assumptions about future events and their anticipation
 
-* Well-behaved *8steady state** (steady growth path)
+* Well-behaved **steady state** (steady growth path)
 
 * Calibration heavily based on the properties of the model as **a whole
   system** ("smell test" simulations, policy trade-offs)
@@ -154,7 +155,7 @@
    macroeconomic assumptions (e.g. central bank macro forecast) and the
    current state of the financial sector
 
-1. **Delta scenarios: Macro stress scenarios** build with the macro baseline as the structural point of departure: input into further stress testing frameworks
+1. **Delta scenarios: Macro stress scenarios** build with the macro baseline as the structural point of departure: input into further stress testing frameworks (direct, reverse, conditioning, etc...)
 
 1. Impact of (alternative) **macroprudential interventions** in such scenarios,
    aggregative input into cost-benefit analysis discussions

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/a01-overview.md",
+                "file": "docs/b02-differentAbout.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25edcc7ede4fb36e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/a01-overview.md",
+                "file": "docs/b02-differentAbout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/a01-overview.md",
+                "file": "docs/b02-differentAbout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/a01-overview.md"
+                "file": "docs/b02-differentAbout.md"
               }
             }
           }
@@ -157,39 +169,40 @@
   },
   "active": "a49446649835a3f9",
   "lastOpenFiles": [
-    "docs/model-structure-canvas.canvas",
-    "docs/model-structure-canvas.png",
-    "docs/model-structure.png",
-    "docs/lending-conditions-feedback-canvas.canvas",
-    "docs/lending-conditions-feedback-canvas.png",
-    "docs/a01-overview.md",
-    "docs/a01-overview.pdf",
-    "docs/xxx.png",
-    "docs/title-page.md",
-    "docs/a10-macroAssets.md",
-    "docs/b03-deltaScenarios.md",
-    "docs/a08-securitiesPricing.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "scripts/xxx.json",
-    "docs/a06-interestRates.md",
-    "docs/_Draft-Paper-Wp746.pdf",
-    "docs/Draft-Paper-Wp746.pdf",
-    "docs/b02-differentAbout.md",
     "docs/b02-differentAbout.pdf",
-    "docs/allowances-stock-flow.png",
+    "docs/a10-macroAssets.md",
     "docs/a09-macro.md",
     "docs/a09-macro.pdf",
+    "docs/b02-differentAbout.md",
     "docs/a07-bankCapital.md",
+    "docs/a07-bankCapital.pdf",
+    "docs/a06-interestRates.md",
+    "docs/a06-interestRates.pdf",
     "docs/a05-bankProvisioning.md",
     "docs/a05-bankProvisioning.pdf",
     "docs/a04-creditRisk.md",
+    "docs/a04-creditRisk.pdf",
     "docs/a03-creditCreation.md",
+    "docs/a03-creditCreation.pdf",
     "docs/a02-bankBalanceSheets.md",
-    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.err",
-    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.out",
-    "scripts/raw-data/tp8c4e5259_772e_457c_8873_90bed4f81ab2.log",
+    "docs/a02-bankBalanceSheets.pdf",
+    "docs/a01-overview.md",
+    "docs/model-structure-canvas.canvas",
+    "Untitled 1.md",
+    "docs/lending-conditions-feedback-canvas.canvas",
+    "Untitled.md",
+    "docs/model-structure-canvas.png",
+    "docs/model-structure.png",
+    "docs/lending-conditions-feedback-canvas.png",
+    "docs/a01-overview.pdf",
+    "docs/xxx.png",
+    "docs/title-page.md",
+    "docs/b03-deltaScenarios.md",
+    "docs/a08-securitiesPricing.md",
+    "Untitled 2.md",
+    "scripts/xxx.json",
+    "docs/_Draft-Paper-Wp746.pdf",
+    "docs/allowances-stock-flow.png",
     "docs/capital-adequacy-stress-func.png",
     "docs/portfolio-default-rate-func.png",
     "docs/portofolio-default-rate-func.png",
