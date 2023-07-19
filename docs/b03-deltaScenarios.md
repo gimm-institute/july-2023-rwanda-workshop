@@ -32,9 +32,9 @@ Conceptually and technically simple, with a range of applications:
 ### Inputs
 
 * Baseline scenario from external source
-	* Can be macro+world only, or macro+world+some parts of financial
-	* Does not need to cover all variables in the model
-	* Typical example: monetary policy forecast (GDP, inflation, short rates, exchange rate)
+    * Can be macro+world only, or macro+world+some parts of financial
+    * Does not need to cover all variables in the model
+    * Typical example: monetary policy forecast (GDP, inflation, short rates, exchange rate)
  
 * Data on current position of the macroeconomy and financial sector (initial condition)
 
@@ -65,23 +65,23 @@ Keep the tunes from Step 2, and incorporate any number of assumptions on top of 
 
 $$
 \left( \begin{matrix} m_t \\ 
-					  f_t 
-	   \end{matrix} 
+                      f_t 
+       \end{matrix} 
 \right)
  = A \cdot
  \left( \begin{matrix} m_{t-1} \\ 
-					  f_{t-1} 
-	   \end{matrix} 
+                      f_{t-1} 
+       \end{matrix} 
 \right)
  +
  \left( \begin{matrix} \epsilon^m_{t-1} \\ 
-					  \epsilon^f_{t-1} 
-	   \end{matrix} 
+                      \epsilon^f_{t-1} 
+       \end{matrix} 
 \right)
 $$
 * where: 
-	* $m$ and $\epsilon^m$ are vectors of macro variables and shocks 
-	* $f$ and $\epsilon^f$ are vectors of financial variables and shocks
+    * $m$ and $\epsilon^m$ are vectors of macro variables and shocks 
+    * $f$ and $\epsilon^f$ are vectors of financial variables and shocks
  
 * Assume $m_t$ is given for $t=0, \ldots, T$ (external scenario, baseline macro forecast)
 
@@ -94,32 +94,32 @@ $$
 ### Technical explanation, cont.
 
 * Add additional macro assumptions (modify vector $\epsilon^m$). Examples:
-	* Interest hike
-	* GDP growth decline
-	* FX depreciation
+    * Interest hike
+    * GDP growth decline
+    * FX depreciation
  
 * Add additional financial sector assumptions (vector $\epsilon^f$). Examples:
-	* Worsening credit performance
-	* Tightening of lending conditions
+    * Worsening credit performance
+    * Tightening of lending conditions
  
 * Or combine multiple inputs to create a more complex scenario
-	* Very easy to code and implement all kinds of scenarios
+    * Very easy to code and implement all kinds of scenarios
 
 ---
 
 ### Result
 
 * Simulate again with updated set of shocks
-	* Incorporates the shocks that replicate the baseline macro scenarion **plus** your additional inputs
+    * Incorporates the shocks that replicate the baseline macro scenarion **plus** your additional inputs
  
 * The resulting scenario:
-	* Is based on the external input (baseline scenario)
-	* Differs from the baseline scenario in simple, clearly defined way
-	* Provides consistent projection for macro and financial variables
+    * Is based on the external input (baseline scenario)
+    * Differs from the baseline scenario in simple, clearly defined way
+    * Provides consistent projection for macro and financial variables
  
 * Advantages:
-	* Incorporates all feedback loops built into the model
-	* Perfect foresight on macro variables, but also possibility of unexpected shocks on top of that
+    * Incorporates all feedback loops built into the model
+    * Perfect foresight on macro variables, but also possibility of unexpected shocks on top of that
 
 ---
 

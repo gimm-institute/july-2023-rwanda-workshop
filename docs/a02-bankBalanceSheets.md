@@ -416,6 +416,7 @@ $$
 
 * $\xnewall{t}{ }$ is the impact of new provisions (flow) on period profit/loss
 
+Here, the assumption is that no matter our provisioning scheme, the write-off buffer has 100% coverage.
 
 --------------------------------------------------------------------------------
 
@@ -425,7 +426,7 @@ $$
 Write off a certain proportion of the exiting buffer each period
 
 $$
-\xwoff = \omega \, \xlnw[t-1]
+\xwoff = \omega \cdot \xlnw[t-1]
 $$
 
 * $\omega \in (0, \, 1)$ is a parameter determining the speed of the write-off process

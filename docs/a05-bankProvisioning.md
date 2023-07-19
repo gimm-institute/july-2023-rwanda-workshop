@@ -40,8 +40,6 @@ In the real world
 ### Two types of allowances
 
 
---------------------------------------------------------------------------------
-
 Two types of allowances are considered in the model
 
 * incurred loss (IL) based (backward-looking) allowances, $\xab$
@@ -57,14 +55,38 @@ The conceptual definition of the __EL allowances__, $\xaf$, is the difference be
 
 with both of these evaluated for the current (static) pool of loans.
 
+---
 
+### IL-based allowances
+
+Most IL-based provisioning schemes are based on downturn risk parameters, separately for performing and nonperforming loans
+
+$$
+ab_t = ab^{ln}_t + ab^{lp}_t
+$$
+
+$$
+\begin{gather}
+ab^{ln}_t = \mathit{pd}^{\,ln}\cdot \mathit{lgd}^{\,ln}\cdot ln_t \\[10pt]
+ab^{lp}_t = \mathit{pd}^{\,lp}\cdot \mathit{lgd}^{\,lp}\cdot lp_t
+\end{gather}
+$$
+
+
+
+---
 
 ### Formal definition of EL-based allowances in the model
+
+$$
+a_t = \text{PV of Contractual Cash Flows}\ -
+\text{PV of Expected Cash Flows}
+$$
 
 Because the write-off buffer, $\xlnw$, has no recovery at all, the allowances can be expressed as
 
 $$
-\xall = \xpvc \, \xl - \xpvx  \xlp + \xlnc
+\xall = \xpvc \, \xl - \left( \xpvx  \xlp + \xlnc \right)
 $$
 
 where 
