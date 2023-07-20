@@ -16,11 +16,12 @@
     "Write-offs" woff
     "Nonperforming loans to gross loans ratio" ln_to_l
     "Nonperforming loans recognized to gross loans ratio" ln_rec_to_l
+    woff_to_l
 
 
 !log-variables !all-but
 
-    ln_to_l, ln_rec_to_l
+    ln_to_l, ln_rec_to_l, woff_to_l
 
 
 !equations
@@ -36,6 +37,7 @@
     woff = !for <segments> !do + woff_? !end;
     ln_to_l = ln / l;
     ln_rec_to_l = ln_rec / l;
+    woff_to_l = woff / l;
 
 
 %% Loan portfolio segments

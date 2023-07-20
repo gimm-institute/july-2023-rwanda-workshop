@@ -50,7 +50,7 @@ p = calibrate.connectCreditRisk(p);
 p = calibrate.connectInterestRates(p);
 
 p = rwanda.calibrate.bankLoanPerformance(p);
-p = calibrate.bankProvisioning(p);
+p = rwanda.calibrate.bankProvisioning(p);
 p = rwanda.calibrate.bankCapital(p);
 
 p = calibrate.stress(p);
@@ -61,6 +61,15 @@ m = assign(m, p);
 %% Calculate steady state
 
 m = steady(m);
+checkSteady(m);
+
+m.ln_to_l_hh = 0.06;
+m.af_to_l_hh = 0.045;
+m = steady( ...
+    m ...
+    , "exogenize", ["ln_to_l_hh", "af_to_l_hh"] ...
+    , "endogenize", ["ss_q_hh", "c1_af_hh"] ...
+);
 checkSteady(m);
 
 

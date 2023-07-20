@@ -6,10 +6,10 @@ function x = bankLoanPerformance(x)
     x.omega_hh = 0.15;
 
     % Paydown factor
-    x.theta_lp_hh = 0.10;
+    x.theta_lp_hh = 0.085;
 
     % Recovery factor
-    x.theta_ln_hh = 0.10;
+    x.theta_ln_hh = 0.085;
 
     % A/R Exchange rate exposure
     x.c0_sigma_hh = 0.9;

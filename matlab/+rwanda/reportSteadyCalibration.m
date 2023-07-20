@@ -6,7 +6,7 @@ load +rwanda/mat/createModel.mat m
 load +rwanda/mat/prepareAllData.mat d startHist endHist
 
 startReport = qq(getYear(startHist), 1);
-endReport = qq(getYear(endHist), 4);
+endReport = qq(2028, 4);
 fileName = "+rwanda/html/steady-calibration";
 
 
@@ -26,6 +26,14 @@ addChart = @(caption, name) ...
         {caption, startReport, endReport, "dateFormat", "Y:Q"} ...
         , {"Model S/S", Series(startReport:endReport, local_eval(ms, name)), "lineWidth", 0} ...
         , {"Data", local_eval(d, name)} ...
+    );
+
+addChartWithTrend = @(caption, name, nameWithTrend) ...
+    rephrase.SeriesChart.fromSeries( ...
+        {caption, startReport, endReport, "dateFormat", "Y:Q"} ...
+        , {"Model S/S", Series(startReport:endReport, local_eval(ms, name)), "lineWidth", 0} ...
+        , {"Data", local_eval(d, name)} ...
+        , {"Trend", local_eval(d, nameWithTrend)} ...
     );
 
 p = rephrase.Pager("");
@@ -49,7 +57,8 @@ g + addChart("Foreign short term rate", "400*rw");
 g = rephrase.Grid("Bank credit", Inf, 2, "displayTitle", true);
 p + g;
 
-g + addChart("Bank loans to GDP, annualized", "l_to_4ny");
+%g + addChart("Bank loans to GDP, annualized", "l_to_4ny");
+g + addChartWithTrend("Bank loans to GDP, annualized", "l_to_4ny", "l_to_4ny_tnd");
 g + addChart("New bank loans to GDP", "new_l_to_ny");
 
 
@@ -58,7 +67,8 @@ g = rephrase.Grid("Bank loan performance", Inf, 2, "displayTitle", true);
 p + g;
 
 g + addChart("Nonperforming loans to gross loans", "ln_to_l");
-g + addChart("Allowances to gross loans", "a_to_l");
+g + addChartWithTrend("Allowances to gross loans", "a_to_l", "ap_min_to_l");
+g + addChart("Write-offs to gross loans", "woff_to_l");
 
 
 

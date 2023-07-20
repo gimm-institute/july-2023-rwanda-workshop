@@ -13,7 +13,7 @@ function x = connectCreditCreation(x)
 
 
     % Gross loans to GDP ratio
-    x.ss_l_to_4ny_hh = 0.22;
+    x.ss_l_to_4ny_hh = 0.30;
 
 
     % Autoregression in loans to GDP trend ratio
