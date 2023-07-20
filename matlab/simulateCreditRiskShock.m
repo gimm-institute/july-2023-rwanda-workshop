@@ -28,7 +28,7 @@ checkSteady(m1);
 m1 = solve(m1);
 
 d = databank.forModel(m1, 1:40);
-d.shock_q_hh(5) = 0.01;
+d.shock_q_hh(5) = 0.02;
 
 sa = simulate( ...
     m1, d, 1:40 ...
@@ -47,7 +47,7 @@ su = simulate( ...
 
 %% 
 
-tiledlayout("flow");
+tiledlayout("flow", "tileSpacing", "loose");
 
 nexttile();
 plot(0:40, 100*[sa.q_hh, su.q_hh]);

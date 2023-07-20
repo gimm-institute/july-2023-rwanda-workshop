@@ -5,5 +5,5 @@
   ],
   "theme": "moonstone",
   "baseFontSize": 30,
-  "showViewHeader": true
+  "showViewHeader": false
 }

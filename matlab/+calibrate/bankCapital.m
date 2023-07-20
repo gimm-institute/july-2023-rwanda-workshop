@@ -5,7 +5,7 @@ function x = bankCapital(x)
 x.c0_riskw = 0.8;
 x.c0_car_min = 0.8;
 
-x.ss_onfx = 0; % including off-balance sheet items
+x.ss_onfx_to_bk = 0; % including off-balance sheet items
 x.ss_riskw   = 0.4; 
 x.ss_car_min = 10/100;
 x.ss_car_exc = 3/100;

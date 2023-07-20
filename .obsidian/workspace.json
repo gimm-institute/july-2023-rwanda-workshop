@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a49446649835a3f9",
+            "id": "83738d727ea39619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/b02-differentAbout.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25edcc7ede4fb36e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
+                "file": "docs/a04-creditRisk.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5
+    "width": 414.5,
+    "collapsed": true
   },
   "right": {
     "id": "ecaca386436a3f4b",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/b02-differentAbout.md",
+                "file": "docs/a04-creditRisk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/b02-differentAbout.md",
+                "file": "docs/a04-creditRisk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/b02-differentAbout.md"
+                "file": "docs/a04-creditRisk.md"
               }
             }
           }
@@ -167,55 +156,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a49446649835a3f9",
+  "active": "83738d727ea39619",
   "lastOpenFiles": [
-    "docs/b02-differentAbout.pdf",
+    "matlab/tp99ef4af9_0f55_4186_a4e0_80a5908ea746.spc",
+    "matlab/tpfba5f1aa_c93e_4cc0_9c7c_ca9fcbf57bdb.spc",
+    "matlab/tp9e600ba0_aa03_456f_85f7_62560f983725.d12",
+    "matlab/tp9e600ba0_aa03_456f_85f7_62560f983725.err",
+    "matlab/tp9e600ba0_aa03_456f_85f7_62560f983725.out",
+    "matlab/tp9e600ba0_aa03_456f_85f7_62560f983725.log",
+    "matlab/tp9e600ba0_aa03_456f_85f7_62560f983725.spc",
+    "matlab/tpf8e4b07e_f60d_4160_a31f_ed3821240a54.spc",
+    "matlab/tp387b5865_94ca_449b_b3e0_5bdb71715037.out",
+    "matlab/tp387b5865_94ca_449b_b3e0_5bdb71715037.err",
+    "matlab/tp387b5865_94ca_449b_b3e0_5bdb71715037.d12",
+    "Untitled 1.md",
+    "docs/a04-creditRisk.md",
+    "xxx.md",
+    "docs/a07-bankCapital.md",
+    "docs/a03-creditCreation.md",
+    "docs/credit-creation.png",
+    "docs/model-structure-canvas.canvas",
+    "docs/a01-overview.md",
+    "Untitled 2.md",
+    "docs/a02-bankBalanceSheets.md",
+    "docs/b04-dataRequirements.md",
+    "docs/a05-bankProvisioning.md",
+    "docs/b02-differentAbout.md",
     "docs/a10-macroAssets.md",
     "docs/a09-macro.md",
-    "docs/a09-macro.pdf",
-    "docs/b02-differentAbout.md",
-    "docs/a07-bankCapital.md",
-    "docs/a07-bankCapital.pdf",
     "docs/a06-interestRates.md",
-    "docs/a06-interestRates.pdf",
-    "docs/a05-bankProvisioning.md",
-    "docs/a05-bankProvisioning.pdf",
-    "docs/a04-creditRisk.md",
-    "docs/a04-creditRisk.pdf",
-    "docs/a03-creditCreation.md",
-    "docs/a03-creditCreation.pdf",
-    "docs/a02-bankBalanceSheets.md",
-    "docs/a02-bankBalanceSheets.pdf",
-    "docs/a01-overview.md",
-    "docs/model-structure-canvas.canvas",
-    "Untitled 1.md",
     "docs/lending-conditions-feedback-canvas.canvas",
     "Untitled.md",
     "docs/model-structure-canvas.png",
     "docs/model-structure.png",
     "docs/lending-conditions-feedback-canvas.png",
-    "docs/a01-overview.pdf",
     "docs/xxx.png",
     "docs/title-page.md",
     "docs/b03-deltaScenarios.md",
     "docs/a08-securitiesPricing.md",
-    "Untitled 2.md",
-    "scripts/xxx.json",
-    "docs/_Draft-Paper-Wp746.pdf",
     "docs/allowances-stock-flow.png",
     "docs/capital-adequacy-stress-func.png",
     "docs/portfolio-default-rate-func.png",
     "docs/portofolio-default-rate-func.png",
     "docs/nonlinear-credit-risk-function.png",
-    "docs/nonlinear-credit-risk-function (1).png",
     "www.gimm.institute.md",
     "README.md",
     "docs/b03-delta-scenarios.md",
     "docs/b02-different-about.md",
     "docs/a07-bankProvisioning.md",
     "docs/a06-bankCapital.md",
-    "docs/a05-interestRates.md",
-    "docs/a2-bankBalanceSheets.md",
-    "docs/a9-macro.md"
+    "docs/a05-interestRates.md"
   ]
 }

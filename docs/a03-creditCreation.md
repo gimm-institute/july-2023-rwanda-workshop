@@ -154,7 +154,7 @@ $$
 \xl_{t} = \left( 1 - \theta \right) \xl_{t-1} + \xnewl_t
 $$
 
-Reductions in new loans are trigerred by tighter lending conditions and
+Reductions in new loans are triggered by tighter lending conditions and
 (hence) a slowdown in real economic activity
 
 

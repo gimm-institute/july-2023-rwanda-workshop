@@ -1,6 +1,8 @@
 
 function x = bankProvisioning(x)
 
+    x.switch_a = 0;
+
     %
     % Forward looking provisions
     %

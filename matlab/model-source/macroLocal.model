@@ -35,6 +35,7 @@
     "Real exchange rate" re
     "Real exchange rate trend" re_tnd
     "Real exchange rate trend" roc_re_tnd
+    roc_re
     "Real exchange rate gap" re_gap
     "Real exchange rate gap, Rate of change" roc_re_gap
     "Nominal exchange rate depreciation gap" roc_e_gap
@@ -295,6 +296,9 @@
         + c1_roc_re_tnd * log(re_gap) ...
         + shock_roc_re_tnd ...
     !! roc_re_tnd = ss_roc_re;
+
+
+    roc_re = roc(re);
 
 
     "Nominal exchange rate depreciation gap"

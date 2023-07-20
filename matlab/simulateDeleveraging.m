@@ -122,7 +122,7 @@ ch.FigureTitle = "Deleveraging: " + ch.FigureTitle;
 ch.Range = 0:40;
 ch.FigureExtras = { @(h) visual.hlegend("bottom", "Harmless", "Severe", "Devastating") };
 draw(ch, smcm);
-draw(ch, smcf);
+% draw(ch, smcf);
 
 
 return

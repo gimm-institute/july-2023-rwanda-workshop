@@ -18,7 +18,7 @@
     "Capital adequacy risk surcharge" rx
     "Non-equity liabilities" d
     "Other net assets" ona
-    "Open net foreign exchange position" onfx
+    "Open net foreign exchange position" onfx_to_bk
     "Regulatory to financial bank capital ratio" bg_to_bk
     "External capital flows to bank capital ratio" xcf_to_bk
 
@@ -43,7 +43,7 @@
     "S/S Average Effective Risk Weight" ss_riskw
     "S/S Minimum Regulatory CAR" ss_car_min
     "S/S Comfort Level of CAR Buffers" ss_car_exc
-    "S/S Open Net Foreign Position" ss_onfx
+    "S/S Open Net Foreign Position" ss_onfx_to_bk
     "S/S Share of Other Net Assets in Total Net Assets" ss_ona_to_tna
     "S/s Regulatory bank capital" ss_bg_to_bk
 
@@ -85,7 +85,7 @@
 
 !log-variables !all-but
 
-    rbk, car, car_min, car_tar, riskw, onfx
+    rbk, car, car_min, car_tar, riskw, onfx_to_bk
     bg_to_bk, rx, xcf_to_bk
     !for <segments> !do
         rbk_int_loans_?
@@ -203,10 +203,10 @@
 
     d_fcy_to_d * d = ...
         !for <segments> !do + sigma_? * l_? !end ...
-        + onfx * bk ...
+        + onfx_to_bk * bk ...
     ;
 
-    onfx = ss_onfx + shock_onfx;
+    onfx_to_bk = ss_onfx_to_bk + shock_onfx;
 
 
 !postprocessor

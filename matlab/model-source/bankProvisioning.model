@@ -5,6 +5,9 @@
 
 !variables
 
+    "Allowances for credit losses, total" a
+    "Allowances to gross loans ratio, total" a_to_l
+
     "Fwl allowances for credit losses, total" af
     "Fwl allowances to gross loans ratio, total" af_to_l
 
@@ -15,12 +18,20 @@
 
 !log-variables !all-but
 
+    a_to_l
     af_to_l
     ap_to_l
     ap_to_ln
 
+!parameters
+
+    "Allowances switch" switch_a
+
 
 !equations
+
+    a = switch_a*af + (1 - switch_a)*ap;
+    a_to_l = a / l;
 
     af = !for <segments> !do + af_? !end;
     af_to_l = af / l;
