@@ -2,7 +2,7 @@
 close all
 clear
 
-% rwanda.prepareMacroData
+rwanda.prepareMacroData
 rwanda.prepareBankingData
 
 load +rwanda/mat/prepareMacroData.mat a startHist endHist
@@ -14,7 +14,9 @@ d = databank.merge("error", a, b);
 d.l_to_4ny = d.l / (4*d.ny);
 d.new_l_to_ny = d.new_l / d.ny;
 
+
 % Create hypothetical HH segment
+
 d = databank.copy( ...
     d ...
     , "sourceNames", ["l_to_4ny", "new_l_to_ny"] ...
@@ -25,6 +27,6 @@ d = databank.copy( ...
 
 save +rwanda/mat/prepareAllData.mat d startHist endHist
 
-startScenario = endHist + 1;
-checkInitials(m, d, startScenario);
+% startScenario = endHist + 1;
+% checkInitials(m, d, startScenario);
 

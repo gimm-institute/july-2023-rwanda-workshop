@@ -1,12 +1,18 @@
+%% Load and prepare macro data
 
 close all
 clear
+
+
+%% Load raw data from XLSX file
 
 startHist = qq(2010,1);
 endHist = qq(2022,3);
 startScenario = endHist + 1;
 
 h = databank.fromSheet("+rwanda/macro-data.xlsx");
+
+% Run seasonal adjustment and frequency conversion
 
 h.QQ_Y = x13.season(h.QQ_Y_SU);
 h.QQ_NY = x13.season(h.QQ_NY_SU);
@@ -20,6 +26,8 @@ h.QQ_RW = convert(h.MM_RW, Frequency.QUARTERLY);
 
 h.QQ_E = convert(h.DD_E, Frequency.QUARTERLY, "removeMissing", true);
 
+
+%% Create model consistent databank
 
 a = struct();
 
@@ -79,6 +87,9 @@ a.x = Series(endHist, 0);
 
 load +rwanda/mat/createMacroModel.mat n
 checkInitials(n, a, startScenario);
+
+
+%% Save databank to mat file
 
 save +rwanda/mat/prepareMacroData.mat a startHist endHist
 
